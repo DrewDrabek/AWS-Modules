@@ -30,6 +30,8 @@ resource "aws_db_instance" "example_rds_instance" {
 
     vpc_security_group_ids = var.database_security_group_id
 
+    depends_on = [ aws_db_subnet_group.example_subnet_group ]
+
      /*
 
         There are a lot of other options for this but for testing there are not a ton that are needed besides the networking here are some

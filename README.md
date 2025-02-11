@@ -3,9 +3,7 @@
 - The goal here is to slowly overtime create modules for all of the AWS resources so that I can refer back to them - this is a long term project that will change over time - really the goals here to be able to use this to lab out items
 
     - TODO:
-        - Finish the database services
         - Network services
-            - vpc
             - subnets
             - gateways
             - nacls
