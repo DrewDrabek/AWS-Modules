@@ -1,3 +1,5 @@
+# This is the default file that github provides and it does a pretty good job of covering everything that you might need
+
 # Local .terraform directories
 **/.terraform/*
 
