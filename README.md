@@ -1,14 +1,19 @@
-# AWS-Modules
-This repository stores AWS modules that can quickly spin up resources in various environments.
-## Goals
-- The goal of this repository is to store examples for future use in spinning up environments.
-- These modules can be used in different environments to provision various resources efficiently.
-## Recommended use
-
-- The recommended approach for using these modules is to call them within a file where specific variables can be defined as needed. This allows for the quick deployment of resources.
-
 ## Notes
 
-- As I learn more and more services the goal is to create a module here for AWS items and then in the Azure repo do the same thing.
+- The goal here is to slowly overtime create modules for all of the AWS resources so that I can refer back to them - this is a long term project that will change over time - really the goals here to be able to use this to lab out items
 
-- There is a DNS module here is as an example for myself - I do not know if I would recommened using this in production. It depends on the enviornment and how comfortable the team is with managing DNS and the records that are required. In the example there are going to be a private and public zone and some examples for the records in there. 
+    - TODO:
+        - Finish the database services
+        - Network services
+            - vpc
+            - subnets
+            - gateways
+            - nacls
+            - route tables
+            - associations
+        - Storage services
+            - s3
+            - ecr
+
+
+- There will be a DNS module here is as an example for myself - I do not know if I would recommened using this in production. It depends on the enviornment and how comfortable the team is with managing DNS and the records that are required. In the example there are going to be a private and public zone and some examples for the records in there. 
